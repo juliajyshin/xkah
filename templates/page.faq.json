@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_MARCQz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6LCdUp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are Average Shipping Times?",
+            "icon": "none",
+            "row_content": "<p>Average shipping times typically range from 3 to 5 business days after the purchase date. Please be aware that these timelines may vary due to global shipping disruptions or other unforeseen circumstances. Thank you for your understanding.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QwfMJU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is My Device Covered by a Warranty?",
+            "icon": "none",
+            "row_content": "<p>ХКАН provides a limited warranty on all devices, effective from the date of purchase. This warranty is available exclusively to the original end-user and requires a dated proof of purchase.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MrnFtQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do You Offer Wholesale?",
+            "icon": "none",
+            "row_content": "<p>If you're interested in wholesale purchases, please contact us at info@xkah.com.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6LCdUp",
+        "collapsible_row_QwfMJU",
+        "collapsible_row_MrnFtQ"
+      ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width: 83.4rem;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_MARCQz"
+  ]
+}
