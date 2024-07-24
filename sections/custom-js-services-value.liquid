@@ -1,0 +1,87 @@
+<div class="services_values_container">
+    <div class="values_container">
+        <div class="value-box">
+            <h1>Hello World!</h1>
+        </div>
+        <div class="value-box">
+            <h1>Hello World!</h1>
+        </div>
+        <div class="value-box">
+            <h1>Hello World!</h1>
+        </div>
+        <div class="value-box">
+            <h1>Hello World!</h1>
+        </div>
+    </div>
+</div>
+
+{% comment %} -------CSS------- {% endcomment %}
+{% stylesheet %}
+.services_values_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Added padding for better spacing on smaller screens */
+}
+    .values_container {
+    display: flex;
+    flex-wrap: wrap; /* Allow the items to wrap */
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  .value-box {
+    display: flex;
+    width: 100%;
+    max-width: 300px; /* Ensures a max-width for responsiveness */
+    height: 200px; /* Fixed height for the value boxes */
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #f7d8f5;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    .value-box {
+        flex: 1 0 21%; /* 4x1 grid, with margin and gaps accounted for */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .value-box {
+        flex: 1 0 50% !important; /* 2x2 grid, with margin and gaps accounted for */
+    }
+}
+
+@media (max-width: 767px) {
+    .value-box {
+        flex: 1 0 100%; /* 1x4 grid */
+    }
+}
+/* Ensure no 3-box rows */
+@media (min-width: 766px) and (max-width: 1199px) {
+   .value-box:nth-child(odd):last-child {
+    flex: 1 0 50% !important; /* Ensure last item in odd number is not stretched */
+    }
+}
+{% endstylesheet %}
+
+
+
+{% comment %} -------SECTION CREATE------- {% endcomment %}
+{% schema %}  
+    {
+        "name": "Custom JS Services Value",
+        "settings": [],
+        "presets": [{"name": "Custom JS Services Value"}]
+    }
+{% endschema %}
