@@ -1,0 +1,49 @@
+{% comment %} -------CSS------- {% endcomment %}
+{% stylesheet %}
+ .explore-container {
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    background-image: url('https://cdn.shopify.com/s/files/1/0663/8865/6306/files/nespresso-image-kit.png?v=1721766588');
+    background-size: contain; /* Adjusts the background image to cover the element */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 90vh;
+    width: 100%;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .explore_box {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+    text-align: center; /* Center text inside the box */
+    padding: 60px;
+  }
+{% endstylesheet %}
+
+
+  <div class="explore-container">
+    <div class="explore_box">
+        <div class="explore-top">
+            <h1 class="explore_heading">
+                Explorer Kit
+            </h1>
+        </div>
+        <div class="explore-bottom">
+                <a href="#" class="btn-link">CTA Button</a>
+        </div>
+    </div>
+  </div>
+
+
+{% schema %}  
+    {
+        "name": "Custom JS Explore Banner",
+        "settings": [],
+        "presets": [{"name": "Custom JS Explore Banner"}]
+    }
+{% endschema %}

@@ -85,11 +85,23 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_js_four_grid_WXmHhJ": {
+      "type": "custom-js-four-grid",
+      "settings": {
+      }
+    },
+    "custom_js_explore_kit_KYtYCj": {
+      "type": "custom-js-explore-kit",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "17216717706eb95037"
+    "17216717706eb95037",
+    "custom_js_four_grid_WXmHhJ",
+    "custom_js_explore_kit_KYtYCj"
   ]
 }

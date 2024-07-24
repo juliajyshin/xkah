@@ -1,9 +1,120 @@
-<h1>Hello World.</h1>
+{% comment %} ----- Container ----- {% endcomment %}
+<div class="container">
+    <div class="item">
+        <div class="4s-top">
+        <h1>Clean Vapor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <div class="4s-bottom">
+            <a href="#" class="btn-link">Read More</a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="4s-top">
+        <h1>Easy to Use</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <div class="4s-bottom">
+            <a href="#" class="btn-link">Read More</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="item">
+        <div class="4s-top">
+        <h1>Use your Fav Shisha</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <div class="4s-bottom">
+            <a href="#" class="btn-link">Read More</a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="4s-top">
+        <h1>Take it Anywhere</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <div class="4s-bottom">
+            <a href="#" class="btn-link">Read More</a>
+        </div>
+    </div>
+</div>
+
+
+{% stylesheet %}
+h1 {
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+flex: 0 0 auto; /* Prevents the item from growing or shrinking */
+box-sizing: border-box;
+padding: 20px;
+background-color: #f4f4f4;
+border: 1px solid #ddd;
+border-radius: 16px; 
+text-align: center;
+width: 592px; /* Fixed width */
+height: 400px; /* Fixed height */
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center; /* Center content vertically */
+background-image: url('https://cdn.shopify.com/s/files/1/0663/8865/6306/files/test-placeholder-image.jpg');
+background-size: cover; /* Adjusts the background image to cover the element */
+background-position: center;
+background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+@media (max-width: 800px) {
+    .item {
+        flex: 1 1 calc(50% - 40px); /* 2 items per row on smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .item {
+        flex: 1 1 100%; /* 1 item per row on very small screens */
+    }
+}
+
+.btn-link {
+        background-color: #ffffff; 
+        border: 1px solid #D0D5DD; 
+        color: #000000; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 8px; 
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05); /* Shadow/xs */
+        display: inline-flex;
+    }
+
+.btn-link:hover {
+    background-color: #007BB5; 
+}
+{% endstylesheet %}
 
 {% schema %}  
-    {
-        "name": "Custom JS Four Grid",
-        "settings": [],
-        "presets": [{"name": "Custom JS Four Grid"}]
-    }
+{
+    "name": "Custom JS Four Grid",
+    "settings": [],
+    "presets": [{"name": "Custom JS Four Grid"}]
+}
 {% endschema %}
+
