@@ -1,0 +1,34 @@
+<div class="full-text-container">
+    <div class="full_text">
+        <h1>Discover the <span style="color:#049e34;">technologies</span> that<br>
+            underpin the <span style="color:#049e34;">universe</span> and the<br>
+            myriad of <span style="color:#049e34;">possibilities</span> unlocked.
+        </h1>
+    </div>
+</div>
+
+{% comment %} -------CSS------- {% endcomment %}
+{% stylesheet %}
+.full-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F6F8;
+    padding: 150px 0;
+}
+.full_text {
+    text-align: center; 
+}
+h1 {
+    margin: 0px;
+}
+{% endstylesheet %}
+
+
+{% schema %}  
+    {
+        "name": "Custom JS Text Banner",
+        "settings": [],
+        "presets": [{"name": "Custom JS Text Banner"}]
+    }
+{% endschema %}
