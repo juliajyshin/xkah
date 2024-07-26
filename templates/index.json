@@ -95,6 +95,11 @@
       "type": "custom-js-explore-kit",
       "settings": {
       }
+    },
+    "custom_js_services_value_Y8ENkY": {
+      "type": "custom-js-services-value",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -102,6 +107,7 @@
     "featured_collection",
     "17216717706eb95037",
     "custom_js_four_grid_WXmHhJ",
-    "custom_js_explore_kit_KYtYCj"
+    "custom_js_explore_kit_KYtYCj",
+    "custom_js_services_value_Y8ENkY"
   ]
 }
