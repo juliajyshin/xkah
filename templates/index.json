@@ -43,6 +43,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -69,8 +70,8 @@
         "padding_bottom": 36
       }
     },
-    "custom_js_keen_slider_idwVwy": {
-      "type": "custom-js-keen-slider",
+    "custom_js_slider_home_M9feai": {
+      "type": "custom-js-slider-home",
       "settings": {
       }
     },
@@ -101,6 +102,11 @@
         "include_margins": true
       }
     },
+    "custom_js_text_banner_TaULbG": {
+      "type": "custom-js-text-banner",
+      "settings": {
+      }
+    },
     "custom_js_services_value_Y8ENkY": {
       "type": "custom-js-services-value",
       "settings": {
@@ -115,10 +121,11 @@
   "order": [
     "image_banner",
     "featured_collection",
-    "custom_js_keen_slider_idwVwy",
+    "custom_js_slider_home_M9feai",
     "custom_js_four_grid_WXmHhJ",
     "custom_js_explore_kit_KYtYCj",
     "17216717706eb95037",
+    "custom_js_text_banner_TaULbG",
     "custom_js_services_value_Y8ENkY",
     "custom_js_support_refer_7Bheky"
   ]
